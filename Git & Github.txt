@@ -1,0 +1,32 @@
+Git: Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. 
+
+GitHub: GitHub is a web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features.
+
+
+In Git, a commit ID, also known as a SHA-1 hash, is a unique identifier for a specific commit in a Git repository. 
+It represents a snapshot of the project at a specific point in time and is used to track the history and versions of files in the repository.
+
+A repository, often referred to as a "repo," is a place where code and related files are stored and organized. 
+
+Download Git.
+Open Git Bash in your windows
+
+1. Add User Name : git config --global user.name "add name"
+
+2. Add Email Address : git config --global user.email "add email"
+
+3. To add your own code to Github Go to Folder Terminal or Git bash 
+
+        git init
+        git add README.md
+        git add bootstrap/    //Adding Individual File 
+        git add css/          //Adding Individual File 
+        git add .             //Adding All File at Once
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin <repourl>
+        git push -u origin main
+
+git status :  The git status command is used in the Git version control
+              system to display the current state of the repository. When executed, it provides information about any changes or modifications made to the files in the repository and the status of those changes.
+              It will also shows list of the untracked files.
